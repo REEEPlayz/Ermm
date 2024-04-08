@@ -1,0 +1,6 @@
+local args = {
+    [1] = "Gender",
+    [2] = "Female"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("Buy"):FireServer(unpack(args))
